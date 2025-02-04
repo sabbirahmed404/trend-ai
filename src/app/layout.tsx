@@ -23,6 +23,7 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans antialiased",
           inter.className
         )}
+        suppressHydrationWarning
       >
         <Providers>
           <div className="relative flex min-h-screen flex-col">
